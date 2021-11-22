@@ -1,0 +1,51 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     position: sticky;
+     top:0;
+     background-color: white;
+     z-index: 100;
+     width: 100%;
+}
+.header-icon{
+    height: 50px;
+        margin-left: 80px;
+        margin-top: 20px;
+}
+.header-center{
+    display: flex;
+    flex: 1;
+    place-items: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 10px;
+    height: 25px;
+    border: 1px solid lightgrey;
+    border-radius: 999px;
+    max-width: fit-content;
+  
+}
+.header-center input{
+    border:none;
+    width:250px; 
+    /* we have to set width responsively */
+    outline-width: 0;
+
+}
+.header-end{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    width: 15vw;
+   justify-content: space-between;
+}
+.header-endLogin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border: 1px solid; 
+     border-radius:5px ;
+}

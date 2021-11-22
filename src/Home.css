@@ -1,0 +1,8 @@
+.home{
+    color: black;
+}
+.home-section{
+    display:flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
